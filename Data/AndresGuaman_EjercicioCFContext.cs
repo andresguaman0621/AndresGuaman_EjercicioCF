@@ -15,5 +15,6 @@ namespace AndresGuaman_EjercicioCF.Data
         }
 
         public DbSet<AndresGuaman_EjercicioCF.Models.Burger> Burger { get; set; } = default!;
+        public DbSet<AndresGuaman_EjercicioCF.Models.Promo> Promo { get; set; }
     }
 }
